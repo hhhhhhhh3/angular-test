@@ -1,0 +1,67 @@
+.modal {
+  background-color: grey;
+  opacity: 94%;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-content {
+  background: #f0f0f0;
+  max-width: 40%;
+  padding: 10px 20px;
+  height: 50vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+}
+
+.modal-label {
+  text-align: right;
+}
+
+.modal-button {
+  text-align: right;
+}
+
+.button-modal {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 10px 16px;
+  margin: 10px 0;
+  color: #ffffff;
+  background: #0fa942;
+  border: 2px solid #0fa942;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.inputs-format {
+  margin-top: 20px;
+  width: 300px;
+  padding: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.inside-form {
+  text-align: center;
+}
+
+.form__input {
+  width: 250px;
+  height: 35px;
+}
+
+.form__input:focus {
+  background: #e2c3c3;
+}
+
+.form__input::placeholder {
+  color: #5c4a4a8c;
+}

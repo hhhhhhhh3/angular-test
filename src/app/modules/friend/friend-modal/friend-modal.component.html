@@ -1,0 +1,13 @@
+<div class="modal">
+  <div class="modal-content">
+    <div class="modal-button">
+      <button class="button-modal" (click)="closeModal()">X</button>
+    </div>
+    <form [formGroup]="friendForm">
+      <label class="modal-label" for="name"></label>
+      <input required placeholder="Con quien vas a compartir..." class="inputs-format form__input" id="name" type="text"
+        formControlName="name" required>
+    </form>
+    <input class="button-modal form__input " type="submit" value="Guardar" (click)="saveFriend()" />
+  </div>
+</div>
